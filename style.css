@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+.box{
+    background: url("/images/image.png");
+    /* background-position: center; */
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    height: 507px;
+    width: 900px;
+    background-color: #FFFFFF;
+    border-radius: 13px;
+    position: relative;
+    top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 30px 10px 30px;
+}
+.container .opt-img{
+    height: 180px;
+    width: 180px;
+   background: url("images/otp.png");
+   background-size: cover;
+}
+.container h1{
+    font-weight: 600;
+    font-size: 24px;
+    font-family:Arial, Helvetica, sans-serif;
+    /* line-height: 16px; */
+}
+.container p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #808080;
+    /* line-height: 14px; */
+}
+.container .opt-input{
+    /* height: 63px;
+    width: 300px; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.otp-box{
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    margin-right: 9px;
+    margin-left: 9px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.container-btn{
+    margin-top: 20px;
+    padding: 5px 40px 5px 40px;
+    color: #fff;
+    background: linear-gradient(to right, #13B3FF, #005AD5);
+    border: none;
+    width: 300px;
+    border-radius: 10px;
+}
+/* Congratulations
+ */
+
+.container .congrats-img{
+    height: 251px;
+    width: 251px;
+    background: url("images/congratulations.png");
+    background-size: cover;
+} 
+.congrats-h1{
+    color: #2A2960;
+}
+
+.congrats-p{
+    width: 200px;
+    font-size: 16px;
+}
+.congrats-btn{
+    height: 50px;
+}
+
+/* Instruction page >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.instruction-box{
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+    display: flex;
+}
+.instruct-left{
+    height: 100vh;
+    width: 35%;
+}
+.instruct-right{
+    height: 100vh;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.instruct-logo{
+    height: 15%;
+    width: 70%;
+    background: url("images/image_1.png");
+    background-size: cover ;
+    position: relative;
+    top: 40px;
+    left: 39px;
+}
+.instruct-img{
+    height: 60%;
+    width: 85%;
+    background: url("images/instruction.png");
+    background-size: cover;
+    position: relative;
+    top: 90px;
+    left: 40px;
+}
+.instruction{
+    height: 75%;
+    width: 75%;
+    background-color: #D0EDFF;
+    position: relative;
+    left: -30px;
+    border-radius: 14px;
+    padding: 15px;
+}
+.instruction h1{
+    font-weight: 600;
+    font-size: 22px;
+}
+.instruction ul{
+    margin-top: 20px;
+}
+.instruction ul li{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 35px;
+    color: #000000;
+}
+.instruct-btn{
+    height: 40px;
+    width: 22%;
+    background: linear-gradient(to right, #13B3FF, #005AD5); 
+    border: none;
+    border-radius: 10px;
+    color: white;
+    position: relative;
+    top: 40px;
+    padding: 5px 15px 5px 15px;
+    
+}
+
+/* Important-innstruction Page */
+.imp-instruction-left{
+    height: 100vh;
+    width: 30%;
+}
+.imp-instruction-right{
+    height: 100vh;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imp-instruct-img{
+    height: 50%;
+    width: 60%;
+    background: url("images/imp-instruction.png");
+    background-size: cover;
+    position: relative;
+    left: 50px;
+    top: 140px;
+}
+.imp-instruct-right h1{
+    /* background: linear-gradient(to right, #13B3FF, #005AD5); */
+    font-weight: 700;
+    font-size: 36px;
+    position: relative;
+    top: 70px;
+    left: -20px;
+}
+.imp-instruction{
+    width: 60vw;
+    height: 60%;
+    position: relative;
+    top: 75px;
+}
+.imp-instruction ul li{
+    color: #003B8B;
+    font-weight: 500;
+    line-height: 40px;
+}
+.imp-check{
+    height: 40px;
+    position: relative;
+    top: 80px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: -20px;
+}
+.imp-check span{
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+}
+.imp-check input{
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+}
+.imp-instruct-right button{
+    height: 40px;
+    position: relative;
+    top: 78px;
+    left: 100px;
+    width: 20%;
+    background: linear-gradient(to right, #13B3FF, #005AD5); 
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+.imp-account{
+    height: 60px;
+    width: 140px;
+    position: relative;
+    top: 73px;
+    left: 600px;
+    padding: 10px;
+    line-height: 15px;
+}
+.imp-account h6{
+    color: #003B8B;
+    font-size: 16px;
+    font-weight: 650;
+}
+.imp-account p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #808080;
+}
+
+/*Automatically Page b/w Instruction and imp Instruction  */
+.automaticaly-box{
+    height: 100vh;
+    width: 100vw;
+}
+.automate-content-box{
+    width: 65%;
+    height: 65%;
+    /* background-color: pink; */
+    transform: translate(24%, 24%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.content-box{
+    height: 15%;
+    background-color: #F1FBFF;
+    border-radius: 10px;
+    padding: 14px 27px 14px 27px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.automaticaly-box h5{
+    font-weight: 700;
+    color: #032F84;
+    font-size: 24px;
+    position: relative;
+    top: 100px;
+    left: 440px;
+    line-height: 50px;
+}
+.automaticaly-box button{
+    background: linear-gradient(to right, #13B3FF, #005AD5); 
+    border: none;
+    border-radius: 10px;
+    color: white;
+    height: 40px;
+    width: 20%;
+    position: relative;
+    left: 500px;
+    top: 100px;
+}
+.automate-account{
+    position: relative;
+    left: 1050px;
+}
