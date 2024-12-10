@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+.instruction-box{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+}
+.instruct-left{
+    height: 100vh;
+    width: 35%;
+}
+.instruct-right{
+    height: 100vh;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.instruct-logo{
+    height: 15%;
+    width: 70%;
+    background: url("images/image_1.png");
+    background-size: cover ;
+    position: relative;
+    top: 40px;
+    left: 39px;
+}
+.instruct-img{
+    height: 60%;
+    width: 85%;
+    background: url("images/instruction.png");
+    background-size: cover;
+    position: relative;
+    top: 90px;
+    left: 40px;
+}
+.instruction{
+    height: 75%;
+    width: 75%;
+    background-color: #D0EDFF;
+    position: relative;
+    left: -30px;
+    border-radius: 14px;
+    padding: 15px;
+}
+.instruction h1{
+    font-weight: 600;
+    font-size: 22px;
+}
+.instruction ul{
+    margin-top: 20px;
+}
+.instruction ul li{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 35px;
+    color: #000000;
+}
+.instruct-btn{
+    height: 40px;
+    width: 22%;
+    background: linear-gradient(to right, #13B3FF, #005AD5); 
+    border: none;
+    border-radius: 10px;
+    color: white;
+    position: relative;
+    top: 40px;
+    padding: 5px 15px 5px 15px;
+    
+}
+
+/* >>>>>>>>>> */
+.automaticaly-box{
+    height: 100vh;
+    width: 100%;
+}
+.automate-content-box{
+    width: 65%;
+    height: 65%;
+    transform: translate(26%, 0%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.content-box{
+    height: 12%;
+    background-color: #F1FBFF;
+    border-radius: 10px;
+    padding: 14px 27px 14px 27px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #005AD5;
+}
+
+
+.automate-content-box h5{
+    font-weight: 700;
+    font-size: 20px;
+    color: #032F84;
+    position:relative;
+}
+.automate-h5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.automaticaly-box button{
+    background: linear-gradient(to right, #13B3FF, #005AD5); 
+    border: none;
+    border-radius: 10px;
+    color: white;
+    height: 40px;
+    width: 20%;
+    position: relative;
+    left: 500px;
+    top: 10px;
+}
+.automate-account{
+    position: relative;
+    left: 1050px;
+}
+.imp-account{
+    height: 60px;
+    width: 140px;
+    position: relative;
+    /* top: 73px; */
+    /* top: 20px; */
+    top: -60px;
+    left: 1050px;
+    padding: 10px;
+    /* line-height: 15px; */
+}
+.imp-account h6{
+    color: #003B8B;
+    font-size: 16px;
+    font-weight: 650;
+}
+.imp-account p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #808080;
+}
+.automate-logo{
+    height: 15%;
+    width: 20%;
+    background-color: #000000;
+    position: relative;
+    top: 3%;
+    background: url("images/image_1.png");
+    background-size: cover;
+}
+
+/* >>>>>>>>>>>>>>> */
+.imp-instruct-left{
+    height: 100vh;
+    width: 30%;
+}
+.imp-instruct-right{
+    height: 100vh;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+.imp-instruct-img{
+    height: 50%;
+    width: 75%;
+    background: url("images/imp-instruction.png");
+    background-size: cover;
+}
+.imp-instruct-right h3{
+    font-weight: 700;
+    font-size: 24px;
+    position: relative;
+    left: -230px;
+    color: #005AD5;
+}
+
+.imp-check{
+    height: 40px;
+    position: relative;
+    top: 10px;
+    display: flex;
+    position: relative;
+    left: -140px;
+}
+.imp-check span{
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+}
+.imp-check input{
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+}
+.imp-instruct-btn{
+    position: relative;
+    left: -250px;
+}
