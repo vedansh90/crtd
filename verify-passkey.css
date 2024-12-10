@@ -61,24 +61,31 @@ body{
     top: 10%;
     left: 15%;
 }
-.passkey input{
+.right-inside form input{
     height: 30px ;
-    width: 74% ;
+    width: 250% ;
     border: none;
     border: 1px solid #000000;
     border-radius: 5px;
     padding: 5px;
+    position: relative;
+    top: -210%;
+    left: -82%;
 }
-.right-inside button{
+.right-inside form{
     height: 10%;
     width: 30%;
+    position: relative;
+    top: 30%;
+    left: 40%;
+}
+.right-inside form button{
+    height: 100%;
+    width: 100%;
     background: linear-gradient(to right, #13B3FF, #005AD5);
     border: none;
     border-radius: 10px;
     color: white;
-    position: relative;
-    top: 30%;
-    left: 40%;
 }
 .passkey-left .passkey-logo{
     height: 15%;
